@@ -3,6 +3,10 @@
 Base Unity project ready to use with [ml-agents](https://github.com/Unity-Technologies/ml-agents).
 
 ## Instalation
+#### Clone
+```ps1
+git clone --recurse-submodules https://github.com/rodrigogs/ml-world.git
+```
 ```ps1
 ./Scripts/setup.ps1
 ```

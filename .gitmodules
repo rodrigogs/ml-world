@@ -1,0 +1,4 @@
+[submodule "Vendor/ml-agents"]
+	path = Vendor/ml-agents
+	url = https://github.com/Unity-Technologies/ml-agents
+    branch = release_18
