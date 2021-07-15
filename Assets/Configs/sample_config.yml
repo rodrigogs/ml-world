@@ -1,5 +1,5 @@
 behaviors:
-  Sample:
+  Balance:
     trainer_type: ppo
     hyperparameters:
       batch_size: 10
@@ -21,3 +21,5 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
+    network_settings:
+      vis_encode_type: simple

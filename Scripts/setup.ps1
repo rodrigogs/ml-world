@@ -9,7 +9,9 @@ if ($pythonVersion -Match "Python 3.9*") {
 
 echo "Clonning ml-agents..."
 git clone https://github.com/Unity-Technologies/ml-agents.git Vendor/ml-agents
+cd Vendor/ml-agents
 git checkout release_18
+cd ../..
 
 echo "Setting up environment..."
 python -m pip install virtualenv
