@@ -18,9 +18,11 @@ Bash
 
 ## Usage
 #### First initialize the virtualenv
+Powershell
 ```ps1
 ./Scripts/dev.ps1
 ```
+Bash
 ```bash
 source venv/bin/activate
 ```
