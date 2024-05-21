@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6bcd970584cd94074bd8c634ffd80431
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ball: {fileID: 188050, guid: b06f0e6c1dfa4356ac918da1bb32c603, type: 3}
+  - bumperLeft: {instanceID: 0}
+  - bumperRight: {instanceID: 0}
+  - scoreLeft: {instanceID: 0}
+  - scoreRight: {instanceID: 0}
+  - wallTop: {instanceID: 0}
+  - wallBottom: {instanceID: 0}
+  - wallLeft: {instanceID: 0}
+  - wallRight: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
