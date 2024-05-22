@@ -10,12 +10,12 @@ if ($pythonVersion -Match "Python 3.9*") {
 echo "Clonning ml-agents..."
 git clone https://github.com/Unity-Technologies/ml-agents.git Vendor/ml-agents
 cd Vendor/ml-agents
-git checkout release_18
+git checkout release_20
 cd ../..
 
 echo "Setting up environment..."
 python -m pip install virtualenv
-virtualenv -p python3.9 venv
+python -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install torch==1.7.1 -f https://download.pytorch.org/whl/torch_stable.html

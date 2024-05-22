@@ -76,3 +76,4 @@ Vendor/**
 .history
 results
 *.onnx
+venv
