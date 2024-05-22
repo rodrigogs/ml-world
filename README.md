@@ -20,11 +20,11 @@ Bash
 #### First initialize the virtualenv
 Powershell
 ```ps1
-./Scripts/dev.ps1
+./.venv/Scripts/Activate.ps1
 ```
 Bash
 ```bash
-source venv/bin/activate
+source ./.venv/bin/activate
 ```
 #### Then you can train your agents
 Powershell
